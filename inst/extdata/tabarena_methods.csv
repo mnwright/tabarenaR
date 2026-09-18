@@ -1,0 +1,100 @@
+"variable","method","suite","method_type","method_class","cache_type","display_name","verified","commercial_use","source_file","current"
+"lightgbm_method_metadata","LightGBM","tabarena-2025-06-12","config","model","s3","LightGBM",NA,TRUE,"lightgbm__info.py",TRUE
+"modernnca_gpu_method_metadata","ModernNCA_GPU","tabarena-2025-06-12","config","model","s3","ModernNCA",NA,TRUE,"modernnca__info.py",TRUE
+"fastai_method_metadata","NeuralNetFastAI","tabarena-2025-06-12","config","model","s3","FastaiMLP",NA,TRUE,"fastai__info.py",TRUE
+"nn_torch_method_metadata","NeuralNetTorch","tabarena-2025-06-12","config","model","s3","TorchMLP",NA,TRUE,"nn_torch__info.py",TRUE
+"random_forest_method_metadata","RandomForest","tabarena-2025-06-12","config","model","s3","RandomForest",NA,TRUE,"random_forest__info.py",TRUE
+"tabicl_method_metadata","TabICL_GPU","tabarena-2025-06-12","config","model","s3","TabICL",NA,TRUE,"tabicl__info.py",TRUE
+"factory:TabPFNv2_GPU","TabPFNv2_GPU","tabarena-2025-06-12","config","model","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_2025_06_12.py",TRUE
+"xgboost_method_metadata","XGBoost","tabarena-2025-06-12","config","model","s3","XGBoost",NA,TRUE,"xgboost__info.py",TRUE
+"betatabpfn_metadata","BetaTabPFN_GPU","tabarena-2025-09-03","config","model","s3","BetaTabPFN",FALSE,TRUE,"tabarena___tabarena_method_metadata_2025_09_03.py",TRUE
+"mitra_method_metadata","Mitra_GPU","tabarena-2025-09-03","config","model","s3","Mitra",NA,TRUE,"mitra__info.py",TRUE
+"realmlp_method_metadata","RealMLP_GPU","tabarena-2025-09-03","config","model","s3","RealMLP",NA,TRUE,"realmlp__info.py",TRUE
+"tabflex_metadata","TabFlex_GPU","tabarena-2025-09-03","config","model","s3","TabFlex",FALSE,TRUE,"tabarena___tabarena_method_metadata_2025_09_03.py",TRUE
+"xrfm_method_metadata","xRFM_GPU","tabarena-2025-09-03","config","model","s3","xRFM",NA,TRUE,"xrfm__info.py",TRUE
+"knn_method_metadata","KNeighbors","tabarena-2025-10-20","config","model","s3","KNN",NA,TRUE,"knn__info.py",TRUE
+"lr_method_metadata","LinearModel","tabarena-2025-10-20","config","model","s3","Linear",NA,TRUE,"lr__info.py",TRUE
+"tabdpt_method_metadata","TabDPT_GPU","tabarena-2025-10-20","config","model","s3","TabDPT",NA,TRUE,"tabdpt__info.py",TRUE
+"ag_140_bq_4h8c_metadata","AutoGluon_v140_bq_4h8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (best, 4h)",NA,TRUE,"autogluon__info.py",TRUE
+"realtabpfnv25_method_metadata","RealTabPFN-v2.5","tabarena-2025-11-12","config","model","s3","RealTabPFN-2.5",NA,TRUE,"tabpfnv2_5__info.py",TRUE
+"sap_rpt_oss_method_metadata","SAP-RPT-OSS","tabarena-2025-11-25","config","model","s3","SAP-RPT-OSS",FALSE,FALSE,"sap_rpt_oss__info.py",TRUE
+"ag_150_eq_4h8c_metadata","AutoGluon_v150_eq_4h8c","tabarena-2025-12-18","baseline","system","s3","AutoGluon 1.5 (extreme, 4h)",NA,TRUE,"autogluon__info.py",TRUE
+"perpetual_booster_method_metadata","PerpetualBooster","tabarena-2026-03-18","config","model","r2","PerpetualBooster",NA,TRUE,"perpetual_booster__info.py",TRUE
+"tabpfnv26_method_metadata","TabPFN-v2.6","tabarena-2026-03-18","config","model","r2","TabPFN-2.6",NA,TRUE,"tabpfnv2_5__info.py",TRUE
+"tabstar_method_metadata","TabSTAR","tabarena-2026-03-18","config","model","r2","TabSTAR",NA,TRUE,"tabstar__info.py",TRUE
+"iltm_method_metadata","iLTM","tabarena-2026-05-13","config","model","r2","iLTM",NA,TRUE,"iltm__info.py",TRUE
+"limix_method_metadata","LimiX","tabarena-2026-05-13","config","model","r2","LimiX",FALSE,FALSE,"limix__info.py",TRUE
+"orionmsp_method_metadata","OrionMSP","tabarena-2026-05-13","config","model","r2","OrionMSP",FALSE,TRUE,"orionmsp__info.py",TRUE
+"tabm_new_method_metadata","TabM","tabarena-2026-06-26","config","model","r2","TabM",TRUE,TRUE,"tabm__info.py",TRUE
+"tabfm_plus_method_metadata","TabFM+","tabarena-2026-07-07","baseline","system","r2","TabFM+",TRUE,FALSE,"tabfm_plus__info.py",TRUE
+"catboost_new_method_metadata","CatBoost","tabarena-2026-07-13","config","model","r2","CatBoost",NA,TRUE,"catboost__info.py",TRUE
+"ebm_new_method_metadata","ExplainableBM","tabarena-2026-07-13","config","model","r2","EBM",NA,TRUE,"ebm__info.py",TRUE
+"extra_trees_new_method_metadata","ExtraTrees","tabarena-2026-07-13","config","model","r2","ExtraTrees",NA,TRUE,"extra_trees__info.py",TRUE
+"nori_new_method_metadata","Nori","tabarena-2026-07-13","config","model","r2","Nori",TRUE,TRUE,"nori__info.py",TRUE
+"tabdpt_turbo_method_metadata","TabDPT-Turbo","tabarena-2026-07-13","config","model","r2","TabDPT-Turbo",FALSE,TRUE,"tabdpt__info.py",TRUE
+"ag_160_eq_4h_metadata","AutoGluon_16_extreme","tabarena-2026-08-05","baseline","system","r2","AutoGluon 1.6 (extreme, 4h)",TRUE,TRUE,"autogluon__info.py",TRUE
+"ag_160_noncomm_4h_metadata","AutoGluon_16_noncommercial","tabarena-2026-08-05","baseline","system","r2","AutoGluon 1.6 (noncommercial, 4h)",TRUE,FALSE,"autogluon__info.py",TRUE
+"chimeraboost_v030_method_metadata","ChimeraBoost","tabarena-2026-08-10","config","model","r2","ChimeraBoost",TRUE,TRUE,"chimeraboost__info.py",TRUE
+"ctboost_method_metadata","CTBoost","tabarena-2026-09-09","config","model","r2","CTBoost",TRUE,TRUE,"ctboost__info.py",TRUE
+"aplr_method_metadata","aplr","tabarena-2026-09-13","config","model","r2","APLR",NA,TRUE,"aplr__info.py",TRUE
+"causilo_new_method_metadata","Causilo","tabarena-2026-09-16","config","model","r2","Causilo",TRUE,FALSE,"causilo__info.py",TRUE
+"exaone_tabular_new_method_metadata","EXAONE-Tabular","tabarena-2026-09-16","config","model","r2","EXAONE-Tabular",TRUE,FALSE,"exaone_tabular__info.py",TRUE
+"mitra_v2_new_method_metadata","Mitra-v2","tabarena-2026-09-16","config","model","r2","Mitra-v2",TRUE,TRUE,"mitra_v2__info.py",TRUE
+"nori30m_new_method_metadata","Nori-30M","tabarena-2026-09-16","config","model","r2","Nori-30M",TRUE,TRUE,"nori__info.py",TRUE
+"tabfm_2026_09_method_metadata","TabFM","tabarena-2026-09-16","config","model","r2","TabFM",TRUE,FALSE,"tabfm__info.py",TRUE
+"tabiclv2_2026_09_method_metadata","TabICLv2","tabarena-2026-09-16","config","model","r2","TabICLv2",NA,TRUE,"tabicl__info.py",TRUE
+"tabpfn_3_2026_09_method_metadata","TabPFN-3","tabarena-2026-09-16","config","model","r2","TabPFN-3",NA,TRUE,"tabpfn_3__info.py",TRUE
+"tabswift_2026_09_method_metadata","TabSwift","tabarena-2026-09-16","config","model","r2","TabSwift",FALSE,TRUE,"tabswift__info.py",TRUE
+"tabldm_new_method_metadata","Xiaomi-TabLDM","tabarena-2026-09-16","config","model","r2","Xiaomi-TabLDM",TRUE,TRUE,"tabldm__info.py",TRUE
+"limix_2_method_metadata","LimiX-2","tabarena-2026-09-17","config","model","r2","LimiX-2",TRUE,TRUE,"limix_2__info.py",TRUE
+"tabpfn_3_5_method_metadata","TabPFN-3.5","tabarena-2026-09-17-fix","config","model","r2","TabPFN-3.5",TRUE,TRUE,"tabpfn_3_5__info.py",TRUE
+"tabpfn_3_5_fast_method_metadata","TabPFN-3.5-Fast","tabarena-2026-09-17-fix","config","model","r2","TabPFN-3.5-Fast",TRUE,TRUE,"tabpfn_3_5__info.py",TRUE
+"gbm_aio_0808_metadata","LightGBM_aio_0808","LightGBM_aio_0808","config","model","s3",NA,FALSE,TRUE,"tabarena___tabarena_method_metadata_misc.py",FALSE
+"prep_gbm_v6_metadata","prep_LightGBM_v6","prep_LightGBM_v6","config","model","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_misc.py",FALSE
+"ag_130_metadata","AutoGluon_v130","tabarena-2025-06-12","baseline","system","s3","AutoGluon 1.3 (best, 4h)",NA,TRUE,"autogluon__info.py",FALSE
+"catboost_method_metadata","CatBoost","tabarena-2025-06-12","config","model","s3","CatBoost",NA,TRUE,"catboost__info.py",FALSE
+"factory:Dummy","Dummy","tabarena-2025-06-12","config","model","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_2025_06_12.py",FALSE
+"factory:ExplainableBM","ExplainableBM","tabarena-2025-06-12","config","model","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_2025_06_12.py",FALSE
+"extra_trees_method_metadata","ExtraTrees","tabarena-2025-06-12","config","model","s3","ExtraTrees",NA,TRUE,"extra_trees__info.py",FALSE
+"factory:KNeighbors","KNeighbors","tabarena-2025-06-12","config","model","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_2025_06_12.py",FALSE
+"factory:LinearModel","LinearModel","tabarena-2025-06-12","config","model","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_2025_06_12.py",FALSE
+"modernnca_method_metadata","ModernNCA","tabarena-2025-06-12","config","model","s3","ModernNCA (CPU)",NA,TRUE,"modernnca__info.py",FALSE
+"portfolio_metadata","Portfolio-N200-4h","tabarena-2025-06-12","portfolio","system","s3",NA,NA,TRUE,"baselines__info.py",FALSE
+"realmlp_cpu_method_metadata","RealMLP","tabarena-2025-06-12","config","model","s3","RealMLP (CPU)",NA,TRUE,"realmlp__info.py",FALSE
+"factory:RealMLP_GPU","RealMLP_GPU","tabarena-2025-06-12","config","model","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_2025_06_12.py",FALSE
+"factory:TabDPT_GPU","TabDPT_GPU","tabarena-2025-06-12","config","model","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_2025_06_12.py",FALSE
+"tabm_method_metadata","TabM","tabarena-2025-06-12","config","model","s3","TabM (CPU)",NA,TRUE,"tabm__info.py",FALSE
+"tabm_gpu_method_metadata","TabM_GPU","tabarena-2025-06-12","config","model","s3","TabM",NA,TRUE,"tabm__info.py",FALSE
+"ag_140_metadata","AutoGluon_v140","tabarena-2025-09-03","baseline","system","s3","AutoGluon 1.4 (4h)",NA,TRUE,"autogluon__info.py",FALSE
+"ebm_method_metadata","ExplainableBM","tabarena-2025-09-03","config","model","s3","EBM",NA,TRUE,"ebm__info.py",FALSE
+"portfolio_metadata_paper_cr","Portfolio-N200-4h","tabarena-2025-10-20","portfolio","system","s3",NA,NA,TRUE,"tabarena___tabarena_method_metadata_2025_10_20.py",FALSE
+"ag_140_bq_1h8c_metadata","AutoGluon_v140_bq_1h8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (best, 1h)",NA,TRUE,"autogluon__info.py",FALSE
+"ag_140_bq_5m8c_metadata","AutoGluon_v140_bq_5m8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (best, 5m)",NA,TRUE,"autogluon__info.py",FALSE
+"ag_140_eq_1h8c_metadata","AutoGluon_v140_eq_1h8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (extreme, 1h)",NA,TRUE,"autogluon__info.py",FALSE
+"ag_140_eq_4h8c_metadata","AutoGluon_v140_eq_4h8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (extreme, 4h)",NA,TRUE,"autogluon__info.py",FALSE
+"ag_140_eq_5m8c_metadata","AutoGluon_v140_eq_5m8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (extreme, 5m)",NA,TRUE,"autogluon__info.py",FALSE
+"ag_140_hq_4h8c_metadata","AutoGluon_v140_hq_4h8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (high, 4h)",NA,TRUE,"autogluon__info.py",FALSE
+"ag_140_hq_5m8c_metadata","AutoGluon_v140_hq_5m8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (high, 5m)",NA,TRUE,"autogluon__info.py",FALSE
+"ag_140_hqil_4h8c_metadata","AutoGluon_v140_hqil_4h8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (fast, 4h)",NA,TRUE,"autogluon__info.py",FALSE
+"ag_140_hqil_5m8c_metadata","AutoGluon_v140_hqil_5m8c","tabarena-2025-11-01","baseline","system","s3","AutoGluon 1.4 (fast, 5m)",NA,TRUE,"autogluon__info.py",FALSE
+"tabprep_gbm_metadata","PrepLightGBM","tabarena-2026-01-23","config","model","s3","PrepLightGBM",NA,TRUE,"tabarena___tabarena_method_metadata_2026_01_23_tabprep.py",FALSE
+"tabprep_lr_metadata","PrepLinearModel","tabarena-2026-01-23","config","model","s3","PrepLinear",NA,TRUE,"tabarena___tabarena_method_metadata_2026_01_23_tabprep.py",FALSE
+"tabprep_realtabpfnv250_metadata","PrepRealTabPFN-v2.5","tabarena-2026-01-23","config","model","s3","PrepRealTabPFN-2.5",NA,TRUE,"tabarena___tabarena_method_metadata_2026_01_23_tabprep.py",FALSE
+"tabprep_tabm_metadata","PrepTabM","tabarena-2026-01-23","config","model","s3","PrepTabM",NA,TRUE,"tabarena___tabarena_method_metadata_2026_01_23_tabprep.py",FALSE
+"tabiclv2_method_metadata","TabICLv2","tabarena-2026-02-16","config","model","s3","TabICLv2",NA,TRUE,"tabicl__info.py",FALSE
+"tabpfn_3_method_metadata","TabPFN-3","tabarena-2026-05-13","config","model","r2","TabPFN-3",NA,TRUE,"tabpfn_3__info.py",FALSE
+"tabpfnwide_method_metadata","TabPFN-Wide","tabarena-2026-05-13","config","model","r2","TabPFN-Wide",FALSE,TRUE,"tabpfnwide__info.py",FALSE
+"chimeraboost_method_metadata","ChimeraBoost","tabarena-2026-06-30","config","model","r2","ChimeraBoost",TRUE,TRUE,"chimeraboost__info.py",FALSE
+"nori_method_metadata","Nori","tabarena-2026-06-30","config","model","r2","Nori",TRUE,TRUE,"nori__info.py",FALSE
+"tabswift_method_metadata","TabSwift","tabarena-2026-07-06","config","model","r2","TabSwift",FALSE,TRUE,"tabswift__info.py",FALSE
+"tabfm_method_metadata","TabFM","tabarena-2026-07-07","config","model","r2","TabFM",TRUE,FALSE,"tabfm__info.py",FALSE
+"chimeraboost_new_method_metadata","ChimeraBoost","tabarena-2026-07-13","config","model","r2","ChimeraBoost",TRUE,TRUE,"chimeraboost__info.py",FALSE
+"nori30m_method_metadata","Nori-30M","tabarena-2026-07-13","config","model","r2","Nori-30M",TRUE,TRUE,"nori__info.py",FALSE
+"tabfm_new_method_metadata","TabFM","tabarena-2026-07-13","config","model","r2","TabFM",TRUE,FALSE,"tabfm__info.py",FALSE
+"tabiclv2_new_method_metadata","TabICLv2","tabarena-2026-07-13","config","model","r2","TabICLv2",NA,TRUE,"tabicl__info.py",FALSE
+"tabpfn_3_new_method_metadata","TabPFN-3","tabarena-2026-07-13","config","model","r2","TabPFN-3",NA,TRUE,"tabpfn_3__info.py",FALSE
+"tabswift_new_method_metadata","TabSwift","tabarena-2026-07-13","config","model","r2","TabSwift",FALSE,TRUE,"tabswift__info.py",FALSE
+"exaone_tabular_method_metadata","EXAONE-Tabular","tabarena-2026-08-06","config","model","r2","EXAONE-Tabular",TRUE,FALSE,"exaone_tabular__info.py",FALSE
+"tabldm_method_metadata","Xiaomi-TabLDM","tabarena-2026-09-11","config","model","r2","Xiaomi-TabLDM",TRUE,TRUE,"tabldm__info.py",FALSE
+"mitra_v2_method_metadata","Mitra-v2","tabarena-2026-09-12","config","model","r2","Mitra-v2",TRUE,TRUE,"mitra_v2__info.py",FALSE
+"causilo_method_metadata","Causilo","tabarena-2026-09-13","config","model","r2","Causilo",TRUE,FALSE,"causilo__info.py",FALSE

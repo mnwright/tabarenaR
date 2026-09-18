@@ -1,0 +1,33 @@
+Package: tabarenaR
+Type: Package
+Title: Evaluate Any R Learner on the TabArena Benchmark and Compute Its Elo
+Version: 0.1.0
+Authors@R: person("Marv", "", email = "marv@wrig.de", role = c("aut", "cre"))
+Description: A pure-R implementation of the TabArena evaluation protocol
+    (Erickson et al., 2025, <doi:10.48550/arXiv.2506.16791>). Downloads the 51
+    TabArena-v0.1 tasks and their official cross-validation splits from OpenML,
+    runs any R model exposed through a train() and predict() pair on them,
+    scores predictions with the official metrics (ROC AUC, log loss, RMSE),
+    pulls the published per-task results of the leaderboard methods, and
+    computes the Bradley-Terry Elo rating, win rate, rank, normalized score
+    and the other leaderboard columns exactly as the official leaderboard
+    does, all without leaving R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports:
+    jsonlite,
+    nanoparquet,
+    stats,
+    tools,
+    utils
+Suggests:
+    arrow,
+    foreign,
+    nnet,
+    ranger,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+URL: https://tabarena.ai
+Config/roxygen2/version: 8.1.0

@@ -1,0 +1,42 @@
+test_that("the bundled suite is TabArena-v0.1", {
+  tasks <- ta_tasks()
+  expect_equal(nrow(tasks), 51)
+  expect_setequal(unique(tasks$problem_type), c("binary", "multiclass", "regression"))
+  expect_true(all(tasks$n_folds == 3))
+  expect_true(all(tasks$n_repeats %in% c(3, 10)))
+  expect_true(all(tasks$n_repeats[tasks$n_instances < 2500] == 10))
+  expect_true(all(tasks$n_repeats[tasks$n_instances >= 2500] == 3))
+  expect_equal(sum(tasks$n_splits), 816)
+  expect_equal(unname(tasks$metric[tasks$problem_type == "binary"][1]), "roc_auc")
+  expect_equal(tasks$task_id[tasks$dataset == "credit-g"], 363626)
+})
+
+test_that("subsets and the task grid work", {
+  expect_equal(nrow(ta_tasks("regression")), 13)
+  expect_equal(nrow(ta_tasks("binary")) + nrow(ta_tasks("multiclass")) + nrow(ta_tasks("regression")), 51)
+  expect_equal(nrow(ta_tasks(c("credit-g", "diabetes"))), 2)
+  expect_equal(nrow(ta_tasks(363626)), 1)
+  expect_error(ta_tasks("no-such-dataset"), "Unknown dataset")
+  grid <- ta_task_grid(ta_tasks(), "all")
+  expect_equal(nrow(grid), 816)
+  expect_equal(nrow(ta_task_grid(ta_tasks(), "lite")), 51)
+  expect_equal(nrow(ta_task_grid(ta_tasks("credit-g"), c(0, 5, 29))), 3)
+  g <- ta_task_grid(ta_tasks("credit-g"))
+  expect_equal(g$split, 3 * g$`repeat` + g$fold)
+})
+
+test_that("the bundled paper results are complete", {
+  res <- ta_results_paper()
+  expect_equal(nrow(res), 45 * 816)
+  expect_true("RF (default)" %in% res$method)
+  expect_true("AutoGluon 1.3 (4h)" %in% res$method)
+  expect_equal(unique(res$method_class[res$method == "AutoGluon 1.3 (4h)"]), "system")
+  expect_setequal(unique(res$dataset), ta_tasks()$dataset)
+})
+
+test_that("the method registry is available", {
+  reg <- ta_method_registry()
+  expect_true(all(c("method", "suite", "method_type", "current") %in% names(reg)))
+  expect_true(sum(reg$current) >= 40)
+  expect_true("RandomForest" %in% reg$method[reg$current])
+})
