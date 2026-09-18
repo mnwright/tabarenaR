@@ -206,6 +206,15 @@ ta_leaderboard <- function(results = NULL, reference = "paper", tasks = NULL, sp
 }
 
 #' @export
+`[.ta_leaderboard` <- function(x, ...) {
+  # subsetting returns a plain data.frame so that column selections such as
+  # lb[lb$is_new, c("method", "elo")] print without the leaderboard columns
+  out <- NextMethod()
+  if (is.data.frame(out)) class(out) <- "data.frame"
+  out
+}
+
+#' @export
 print.ta_leaderboard <- function(x, n = Inf, digits = 1, ...) {
   df <- as.data.frame(x)
   show <- data.frame(
